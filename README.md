@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PokeNéxt
 
-## Getting Started
-
-First, run the development server:
+### Development
 
 ```bash
 npm run dev
@@ -12,27 +10,27 @@ yarn dev
 pnpm dev
 ```
 
+### Building
+
+```bash
+npm run build && npm run start
+# or
+yarn build && yarn start
+# or
+pnpm build && pnpm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Why Next.js
+[Next.js](https://nextjs.org/) is easy to fast, easy to setup, and basically react.js at the very end. I don't need to setup my router, styles, public folder, and webpack stuffs in order to start developing.
+Great DX makes everything fast.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Why Axios
+[Axios](https://www.npmjs.com/package/axios/) killing feature for me is its instance. From the very first time I'm being a developer, I use axios as my fetch framework.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Why Vercel
+[Vercel](https://vercel.com/) is completely free and easy to use. I prefer not to deploy it manually to my VPS since it will take times. Also another reason why I use next.js is because it's amazingly easy to use it along with vercel.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+Do whatever you want with this project.
