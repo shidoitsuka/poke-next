@@ -1,0 +1,17 @@
+.nav {
+  @apply fixed top-4 w-full z-40;
+  .nav-container {
+    @apply flex w-full justify-center;
+    .nav-links {
+      @apply flex border border-gray-700 rounded-full font-semibold;
+      background: rgba(0, 0, 0, 0.02);
+      backdrop-filter: blur(10px);
+      a {
+        @apply py-2 px-3;
+        &.active {
+          @apply bg-yellow-200 rounded-full shadow-xl;
+        }
+      }
+    }
+  }
+}
